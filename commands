@@ -1,0 +1,25 @@
+-ACCESS FROM THE SERVER USER INTERFACE TO SPECIFIC DB
+ psql -U dgo_narvaez -d atabase_name
+
+-ACCESS POSTGRESQL
+psql -U dgo_narvaez -h localhost
+
+-CREATE NEW DATA BASE
+CREATE DATABASE "name";
+
+-LIST Data Bases
+\l
+
+-REMOVE DATA BASE
+DROP DATABASE database_name;
+
+
+-CONNECT TO DATA BASE
+\c database_name
+
+-LIST SCHEMAS
+\dn
+
+-SEARCH PATH TO SCHEMA 
+SET search_path TO schema_name;
+
